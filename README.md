@@ -2,7 +2,9 @@
 
 # TOPSIS:-
 
-![alt text]([http://url/to/img.png](https://www.researchgate.net/publication/253953426/figure/fig4/AS:572982335676422@1513621042660/TOPSIS-method-algorithm.png))
+![TOPSIS-method-algorithm](https://github.com/Drishti-17/sentence_similarity_using_topsis/assets/91721425/86dc1c04-dd07-4f70-98c9-fc5b7d11cbce)
+
+
 TOPSIS, which stands for Technique for Order of Preference by Similarity to Ideal Solution, is a multi-criteria decision analysis method used in decision-making processes. It is a mathematical approach that helps in selecting the best alternative from a set of alternatives based on their similarity to an ideal solution.
 
 Here's a brief overview of how TOPSIS works:
@@ -22,6 +24,9 @@ Here's a brief overview of how TOPSIS works:
 TOPSIS is widely used in various fields such as business, engineering, and environmental studies when there are multiple criteria to consider in decision-making processes. It provides a systematic and quantitative way to analyze and compare alternatives, taking into account multiple criteria simultaneously.
 
 # TEXT SENTENCE SIMILARITY:-
+
+![bJMue](https://github.com/Drishti-17/sentence_similarity_using_topsis/assets/91721425/dcc39252-2039-4da4-97e9-0d45117671d4)
+
 
 Text sentence similarity refers to the measurement of how similar two or more sentences are in terms of their meaning, content, or structure. This is a crucial aspect in natural language processing (NLP) and information retrieval, as it helps systems understand and quantify the similarity between textual content.
 
