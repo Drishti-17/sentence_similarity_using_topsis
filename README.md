@@ -1,4 +1,4 @@
-# sentence_similarity_using_topsis
+# Sentence Similarity Using Topsis
 
 # TOPSIS:-
 
