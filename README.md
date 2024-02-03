@@ -1,6 +1,8 @@
 # sentence_similarity_using_topsis
 
 # TOPSIS:-
+
+![alt text]([http://url/to/img.png](https://www.researchgate.net/publication/253953426/figure/fig4/AS:572982335676422@1513621042660/TOPSIS-method-algorithm.png))
 TOPSIS, which stands for Technique for Order of Preference by Similarity to Ideal Solution, is a multi-criteria decision analysis method used in decision-making processes. It is a mathematical approach that helps in selecting the best alternative from a set of alternatives based on their similarity to an ideal solution.
 
 Here's a brief overview of how TOPSIS works:
