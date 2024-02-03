@@ -51,27 +51,27 @@ In summary, text sentence similarity plays a crucial role in various NLP applica
 
 # METHOD:-
 
-1. **Sentence Embeddings and Similarity Matrix:**
+**Sentence Embeddings and Similarity Matrix:**
 
-i) Utilizes a pre-trained model (model, assumed to be a sentence embedding model like BERT, GPT-3, USE, or XLNet) to obtain embeddings for a list of sentences (sentences).
-ii) Computes the cosine similarity matrix between all pairs of sentences.
-iii) Creates a DataFrame (df_similarity_matrix) and displays it as a table and heatmap.
+1. Utilizes a pre-trained model (model, assumed to be a sentence embedding model like BERT, GPT-3, USE, or XLNet) to obtain embeddings for a list of sentences (sentences).
+2. Computes the cosine similarity matrix between all pairs of sentences.
+3. Creates a DataFrame (df_similarity_matrix) and displays it as a table and heatmap.
 
-2. **Similarity Scores with a Reference Sentence:**
+**Similarity Scores with a Reference Sentence:**
 
-i) Obtains the sentence embedding for a reference sentence (reference_sentence) and calculates cosine similarity scores between the reference sentence and each of the original sentences.
-ii) Computes an additional criterion score based on the average length of words in each sentence.
+1. Obtains the sentence embedding for a reference sentence (reference_sentence) and calculates cosine similarity scores between the reference sentence and each of the original sentences.
+2. Computes an additional criterion score based on the average length of words in each sentence.
 
-3. **Score Normalization and Weighted TOPSIS:**
+**Score Normalization and Weighted TOPSIS:**
 
-i) Normalizes the cosine similarity scores and additional criterion scores using Min-Max scaling.
-ii) Assigns weights to the normalized scores and calculates weighted normalized scores.
-iii) Determines positive and negative ideal solutions.
-iv) Computes the TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) score for each sentence.
-v) Ranks the sentences based on their TOPSIS scores.
+1. Normalizes the cosine similarity scores and additional criterion scores using Min-Max scaling.
+2. Assigns weights to the normalized scores and calculates weighted normalized scores.
+3. Determines positive and negative ideal solutions.
+4. Computes the TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) score for each sentence.
+5. Ranks the sentences based on their TOPSIS scores.
 
-4. **Visualization and Output:**
+**Visualization and Output:**
 
-i) Displays the ranked models and their TOPSIS scores in a table.
-ii) Generates a bar chart to visualize the TOPSIS scores.
-iii) Creates a table (using PrettyTable) summarizing the cosine similarity, additional criterion, and TOPSIS score for each model.
+1. Displays the ranked models and their TOPSIS scores in a table.
+2. Generates a bar chart to visualize the TOPSIS scores.
+3. Creates a table (using PrettyTable) summarizing the cosine similarity, additional criterion, and TOPSIS score for each model.
